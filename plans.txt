@@ -1,0 +1,12 @@
+Character object{
+  character class:
+  level: 1
+  resillience: (max health)
+  endurance: (stamina)
+  accuracy: (chance of hit)
+  whit: 
+  strength:
+  grit:
+}
+
+classes = gunslinger, sheriff, cowboy, gambler, bartender
