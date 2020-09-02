@@ -4,14 +4,25 @@ export default class Battle{
     this.enemy = enemy;
 }
   healthAfterDamage(hp, damage){
-    return hp - damage;
+    let totalHP = hp-damage;
+    
+    // if (hp <=0){
+    //   return alert("Drunk has died");
+    // }
+    return totalHP;
   }
   heal(){
     
 
   }
-  isAlive(){
-
+  isAlive(hp){
+    if (hp <=0){
+      return false;
+    }
+    else{
+      return true;
+    }
   }
+
 }
 

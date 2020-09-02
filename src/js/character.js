@@ -5,7 +5,7 @@ export default class Character {
     this.strength = 0;
     this.accuracy = 0;
     this.endurance = 0;
-    this.hp = this.resillience * 5;
+    this.hp = 0;
   }
 
   Gunslinger(){
@@ -14,6 +14,7 @@ export default class Character {
     this.strength = 60;
     this.accuracy = 75;
     this.endurance = 50;
+    this.hp = this.resillience * 5;
   }
   Sheriff(){
     this.characterClass = "Sheriff";
@@ -21,6 +22,7 @@ export default class Character {
     this.strength = 60;
     this.accuracy = 75;
     this.endurance = 30;
+    this.hp = this.resillience * 5;
   }
   Cowboy(){
     this.characterClass = "Cowboy";
@@ -28,6 +30,7 @@ export default class Character {
     this.strength = 80;
     this.accuracy = 70;
     this.endurance = 75;
+    this.hp = this.resillience * 5;
   }
   Gambler(){
     this.characterClass = "Gambler";
@@ -35,6 +38,7 @@ export default class Character {
     this.strength = 90;
     this.accuracy = 50;
     this.endurance = 40;
+    this.hp = this.resillience * 5;
   }
   
 
