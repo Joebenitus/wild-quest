@@ -10,3 +10,19 @@ Character object{
 }
 
 classes = gunslinger, sheriff, cowboy, gambler, bartender
+
+Battle System= enemies 
+
+max hp = this.resillience * 5
+max hp = 500
+strength 80 attacks character with 500 max health
+hp = 420
+
+let gunslinger = new Character();
+gunslinger.Gunslinger();
+
+let drunk = new Enemy();
+drunk.Drunk();
+
+let battle1 = new Battle(gunslinger, drunk)
+
