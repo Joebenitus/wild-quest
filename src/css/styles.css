@@ -5,3 +5,16 @@ body {
 .btn-danger {
   display: none;
 }
+.btn-success{
+  display: none;
+}
+
+.end-screen {
+  display: none;
+}
+#enemyMiss, #playerMiss{
+  display: none;
+}
+.jumbotron{
+  background-color: rgb(78, 116, 160);
+}

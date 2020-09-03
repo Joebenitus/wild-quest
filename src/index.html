@@ -5,18 +5,36 @@
 </head>
 <body>
   <div class="container">
+    <div class = "jumbotron">
+      <h1>Wild Wild Quest</h1>
+    </div>
+
     <button type="submit" class="btn btn-dark" id="button-gunslinger">Gunslinger</button>
     <button type="submit" class="btn btn-dark" id="button-sheriff">Sheriff</button>
     <button type="submit" class="btn btn-dark" id="button-cowboy">Cowboy</button>
     <button type="submit" class="btn btn-dark" id="button-gambler">Gambler</button>
-
-    <h1 id="character-title"></h1>
-    <h3 id="first-opponent"></h3>
-
+    
+    <h1 class="end-screen" id="end-text"></h1>
+    <button type="submit" class="end-screen btn btn-dark" id="button-new-opponent">Play Again</button>
     <div class="battle-screen">
+      <h1 id="character-title"></h1>
+      <h3 id="first-opponent"></h3>    
       <h3 class="player-health"></h3>
       <h3 class="enemy-health"></h3>
       <button type="submit" class="btn btn-danger" id="button-attack">Attack!</button>
+    </div>
+    <div id = "playerMiss">
+      <h2>Player miss!</h2>
+    </div>
+    <div id = "enemyMiss">
+      <h2>Enemy miss!</h2>
+    </div>
+    <div id = "enemies"><br>
+      <button type="submit" class="btn btn-success" id="button-drunk">Drunk</button>
+      <button type="submit" class="btn btn-success" id="button-bandit">Bandit</button>
+      <button type="submit" class="btn btn-success" id="button-rancher">Rancher</button>
+      <button type="submit" class="btn btn-success" id="button-outlaw">Outlaw</button>
+      <button type="submit" class="btn btn-success" id="button-rick">Rick</button>
     </div>
   </div>
 </body>

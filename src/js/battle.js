@@ -5,15 +5,11 @@ export default class Battle{
 }
   healthAfterDamage(hp, damage){
     let totalHP = hp-damage;
-    
-    // if (hp <=0){
-    //   return alert("Drunk has died");
-    // }
     return totalHP;
   }
-  heal(){
-    
-
+  heal(hp){
+    let totalHP = hp + 30;
+    return totalHP;
   }
   isAlive(hp){
     if (hp <=0){
@@ -21,6 +17,15 @@ export default class Battle{
     }
     else{
       return true;
+    }
+  }
+  rollHit(accuracy){
+    let random = Math.floor(Math.random() * 100) + 1;
+    if (random <= accuracy){
+        return true;
+    }
+    else{
+      return false;
     }
   }
 

@@ -34,8 +34,8 @@ describe('Character', () => {
     let character = new Character();
     character.Cowboy();
     expect(character.characterClass).toEqual("Cowboy");
-    expect(character.resillience).toEqual(30);
-    expect(character.strength).toEqual(80);
+    expect(character.resillience).toEqual(40);
+    expect(character.strength).toEqual(100);
     expect(character.accuracy).toEqual(70);
     expect(character.endurance).toEqual(75);
   });
@@ -43,7 +43,7 @@ describe('Character', () => {
     let character = new Character();
     character.Gambler();
     expect(character.characterClass).toEqual("Gambler");
-    expect(character.resillience).toEqual(50);
+    expect(character.resillience).toEqual(60);
     expect(character.strength).toEqual(90);
     expect(character.accuracy).toEqual(50);
     expect(character.endurance).toEqual(40);

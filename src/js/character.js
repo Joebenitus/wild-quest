@@ -26,15 +26,15 @@ export default class Character {
   }
   Cowboy(){
     this.characterClass = "Cowboy";
-    this.resillience = 30;
-    this.strength = 80;
+    this.resillience = 40;
+    this.strength = 100;
     this.accuracy = 70;
     this.endurance = 75;
     this.hp = this.resillience * 5;
   }
   Gambler(){
     this.characterClass = "Gambler";
-    this.resillience = 50;
+    this.resillience = 60;
     this.strength = 90;
     this.accuracy = 50;
     this.endurance = 40;
